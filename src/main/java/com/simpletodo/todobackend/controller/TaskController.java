@@ -12,7 +12,7 @@ import org.springframework.web.server.ResponseStatusException;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:8080", "https://myquicklist.vercel.app/"})
+@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:8080", "https://myquicklist.vercel.app/", "https://my-quick-list-backend-5a463dab0825.herokuapp.com/"})
 public class TaskController {
 
     @Autowired
